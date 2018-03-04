@@ -4,7 +4,11 @@
   <head>
     <meta content='{{ page.title }} - {{ site.title }}' name='title' />
     <meta content='{{ page.title }} - {{ site.title }}' name='og:title' />
+    {% if is_post %}
     <title>{{ page.title }} - {{ site.title }}</title>
+    {% else %}
+    <title>{{ site.title }}</title>
+    {% endif %}
     {% include head.html %}
   </head>
   <body class="lh-copy dark-gray pa0 f6 sans-serif bg-super-white">
@@ -12,7 +16,6 @@
       <a href="{{ site.url }}">
         <img src="{{ site.url }}/images/logo.png" alt="Home">
       </a>
-      <p>{{ site.title }}</p>
     </header>
     <div class="mw7 bg-white mt4 mb3 center br2-ns bt bb ba-ns b--light-gray">
       <nav class="bb b--light-gray pv4 tc" aria-label="Main">
