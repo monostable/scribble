@@ -10,9 +10,18 @@ include:
   - _redirects
 
 links:
-  - name:         Posts
+  - name:         posts
     url:          /
     external:     false
+  - name:         rss
+    url:          /feed.xml
+    external:     false
+  - name:         email
+    url:          mailto:kaspar@monostable.co.uk
+    external:     true
+  - name:         github
+    url:          https://github.com/monostable
+    external:     true
 # ------------ CONFIGURABLE END ------------
 
 permalink:        /posts/:title
