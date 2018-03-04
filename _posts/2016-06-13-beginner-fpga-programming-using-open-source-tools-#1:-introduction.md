@@ -1,3 +1,7 @@
+---
+title: "Beginner FPGA Programming Using Open Source Tools #1: Introduction"
+---
+
 In this blog series I will document my adventure in learning how to program iCE40 FPGAs using only open source tools. I have no prior experience using Verilog or any of the software involved so the aim is a tutorial suitable for beginners.
 
 Field programmable gate arrays (FPGAs) are reconfigurable hardware. When you program an FPGA you define hardware logic blocks and connections between them allowing for high speed parallel execution of digital logic designs.

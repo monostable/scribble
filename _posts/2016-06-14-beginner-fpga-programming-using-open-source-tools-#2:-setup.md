@@ -1,3 +1,6 @@
+---
+title: "Beginner FPGA Programming Using Open Source Tools #2: Setup"
+---
 This tutorial is for the [iCEstick Evaluation Kit](http://www.latticesemi.com/icestick) which you can get for about $25 [from](http://uk.farnell.com/lattice-semiconductor/ice40hx1k-stick-evn/ice40-hx1k-icestick-eval-kit/dp/2355207?ost=icestick&selectedCategoryId=&categoryNameResp=All%2BCategories&iscrfnonsku=false) [various](http://www.mouser.com/ProductDetail/Lattice/ICE40HX1K-STICK-EVN/?qs=%2fha2pyFaduiOEqlsaiRfBulNsZFFFJWzq2a0PhVAJbo%3d) [places](http://www.digikey.com/product-search/en?keywords=%20icestick).
 
 We want to spend as little time as possible on the setup. If you are already comfortable with Bash and compilation and have your system set up for that you can follow [the instructions](http://www.clifford.at/icestorm/) from the Ice Storm project but below is an easier route using Vagrant.
