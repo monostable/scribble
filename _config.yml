@@ -1,6 +1,6 @@
 # ----------- CONFIGURABLE START -----------
 title:            "Blog - monostable.co.uk"
-description:      "Code & Electronics"
+description:      "Code &amp; Electronics"
 url:              https://boring-austin-2f1c4b.netlify.com # Site url, without a slash at the end.
 signoff:          "Kaspar Emanuel" # Your name
 facebook_appid:   # APP ID for like button, remove from /_includes/share.html if unwanted.
