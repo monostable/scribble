@@ -22,6 +22,9 @@ links:
   - name:         github
     url:          https://github.com/monostable
     external:     true
+  - name:         generative_art
+    url:          https://generative.monostable.co.uk/
+    external:     true
 # ------------ CONFIGURABLE END ------------
 
 permalink:        /posts/:title
